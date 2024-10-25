@@ -37,7 +37,7 @@ const App = () => {
           <button className='bg-blue-600 mt-[20px] p-[5px_20px] rounded-[10px]'><a href='/'>Total responce {totalresponce}</a></button>
 
         </div>
-        <div className=' bg-slate-700 h-[300px] rounded-[10px] relative shadow-[1px_1px_5px_white] overflow-auto overflow-x-scroll'>
+        <div className=' bg-slate-700 h-[600px] rounded-[10px] relative shadow-[1px_1px_5px_white] overflow-auto overflow-x-scroll'>
           <table className='overflow-y-scroll'>
             <tr className='sticky top-0'>
               <th className='bg-[blue] text-center border font-bold border-slate-500 p-[4px]'>Name</th>
