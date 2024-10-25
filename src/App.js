@@ -80,34 +80,34 @@ const App = () => {
                 <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.designation}</td>
                 <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ward}</td>
                 <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.age}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans2}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans3}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans4}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans5}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans6}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans7}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans8}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans9}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans10}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans11}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans12}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans13}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans14}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans15}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans16}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans17}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans18}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans19}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans20}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans21}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans22}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans23}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans24}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans25}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans26}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans27}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans28}</td>
-                <td className='text-center border font-bold border-slate-500 p-[4px]'>{value.ans29}</td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans2}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>b</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans3}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>c</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans4}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>a</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans5}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>b</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans6}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>a</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans7}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>a</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans8}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>a</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans9}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>a</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans10}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>a</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans11}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>b</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans12}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>b</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans13}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>a</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans14}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>d</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans15}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>c</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans16}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>c</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans17}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>c</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans18}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>b</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans19}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>c</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans20}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>d</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans21}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>d</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans22}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>d</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans23}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>a</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans24}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>b</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans25}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>c</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans26}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>d</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans27}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>a</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans28}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>a</span></td>
+                <td className='text-center border font-bold border-slate-500 p-[4px] relative'>{value.ans29}<span className='p-[1px] text-[7px] text-green-500 absolute top-0 right-0'>b</span></td>
               </tr>
               ))
             }
